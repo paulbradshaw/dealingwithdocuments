@@ -1,4 +1,4 @@
-# Dealing with documents - techniques, tools and tips
+# Dealing with documents and text - techniques, tools and tips
 
 This repository contains resources related to dealing with documents as a journalist. Typical challenges include:
 
@@ -26,6 +26,9 @@ Some useful tools to know about include:
 
 Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](https://pinboard.in/u:paulbradshaw/t:text+tools)
 
+## Guides and tutorials
+
+* [This tutorial explains how to count multiple tags in a text column in Excel and Atom](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/tagsexample.md)
 
 
 ## Sources of text to work with
