@@ -1,6 +1,6 @@
 # Counting the most common tags (or names or words) in an Excel spreadsheet
 
-In this example we have a dataset where each record has a number of tags. We want to identify the most common tags, but there are two problems:
+In this example we have a dataset where each record has a number of tags (you can [see a sample dataset with steps separated into different sheets in the same folder as this tutorial](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/textanalysisexample.xlsx)). We want to identify the most common tags, but there are two problems:
 
 * The tags are in a single cell, separated by a pipe symbol: `|`
 * The tags may include spaces, e.g. "Race Relations"
@@ -76,4 +76,26 @@ On the right you should see the pivot table builder. In the top half of that wil
 
 Click and drag that 'tags' field into the *Rows* area in the bottom.
 
-Click and drag that 'tags' field into the *Values* area in the bottom, too.
+Click and drag that 'tags' field into the *Values* area in the bottom, too. This will count the frequency of each tag.
+
+Finally, to bring the most frequent to the top, make sure you are on one of the numbers in the pivot table itself, and then go to the *Data* tab. Click the *small* **Z-A** button to order the table by that column, largest to smallest.
+
+## An alternative Excel-only approach: `TEXTJOIN`
+
+You can skip the Atom step by using the `TEXTJOIN` function like so:
+
+Create a new sheet in Excel and write a formula that joins all the cells together in one column:
+
+`=TEXTJOIN("|",TRUE,'original data'!B:B)`
+
+The `TEXTJOIN` function needs 3 ingredients:
+
+* A delimiter which will separate the cells that it is joining. In this case we use `"|"` because the tags are already separated by a pipe *within* the cell, and we need that pipe symbol to separate them between cells too, once joined.
+* A `TRUE/FALSE` value whether to ignore blank cells. We want to ignore blank cells so use `TRUE`
+* The range of cells to be joined: `'original data'!B:B` is all cells in column B within the sheet 'original data'
+
+This will create a single cell containing the contents of all those cells, with pipes inserted wherever a cell was joined.
+
+Now copy that cell and select *Paste Special > Values Only* so that you are only pasting the results of the formula.
+
+Next, split that cell into columns using Step 2 above, and follow the same process from there.
