@@ -28,6 +28,14 @@ Some useful tools to know about include:
 
 Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](https://pinboard.in/u:paulbradshaw/t:text+tools)
 
+## Useful concepts
+
+* A `diff` compares documents and shows the differences
+* `Regex` (regular expression) is a way of describing the pattern in a passage of text (e.g. 2 digits followed by a non-numerical character, followed by two digits...)
+* **Sentiment analysis** attempts to gauge whether a word or passage of text is positive or negative (used in [this story](https://www.washingtonpost.com/investigations/whistleblowers-say-usaids-ig-removed-critical-details-from-public-reports/2014/10/22/68fbc1a0-4031-11e4-b03f-de718edeb92f_story.html) along with `diff`)
+* **Entity extraction** attempts to identify and classify entities in a document, such as people, places, organisations, and times and dates.
+* **OCR** (Optical Character Recognition) attempts to convert images and scanned documents into text that can be searched etc. Google Images, for example, includes OCR so that you can search for images of specific licence plates, signs etc.
+
 ## Guides and tutorials
 
 * [This tutorial explains how to count multiple tags in a text column in Excel and Atom](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/tagsexample.md)
@@ -35,4 +43,4 @@ Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](
 
 ## Sources of text to work with
 
-* The Chilcott Inquiry published [over 150 witness transcripts](https://webarchive.nationalarchives.gov.uk/20171123123302/http://www.iraqinquiry.org.uk/the-evidence/witness-transcripts/) 
+* The Chilcott Inquiry published [over 150 witness transcripts](https://webarchive.nationalarchives.gov.uk/20171123123302/http://www.iraqinquiry.org.uk/the-evidence/witness-transcripts/)
