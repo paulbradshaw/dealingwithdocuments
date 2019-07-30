@@ -39,6 +39,7 @@ Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](
 ## Guides and tutorials
 
 * [This tutorial explains how to count multiple tags in a text column in Excel and Atom](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/tagsexample.md)
+* [This tutorial explains how to use Datashare to create a document database and perform entity extraction](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/datasharehowto.md)
 
 
 ## Sources of text to work with
