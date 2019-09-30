@@ -22,9 +22,11 @@ Some useful tools to know about include:
 * [DocumentCloud](https://www.documentcloud.org/) (entity extraction and OCR)
 * [Overview](https://www.overviewdocs.com/) (identify links across documents, search and visualise)
 * [Datashare](https://datashare.icij.org/) from the ICIJ for extracting text from documents and searching them. [User Guide here](https://icij.gitbook.io/datashare/)
+* [Open Semantic Search](https://www.opensemanticsearch.org/) is "Free Software for your own Search Engine, Explorer for Discovery of large document collections, Media Monitoring, Text Analytics, Document Analysis & Text Mining platform"
+* [Aleph](https://aleph.occrp.org/) is "A tool for indexing large amounts of both documents (PDF, Word, HTML) and structured (CSV, XLS, SQL) data for easy browsing and search. It is built with investigative reporting as a primary use case. Aleph allows cross-referencing mentions of well-known entities (such as people and companies) against watchlists, e.g. from prior research or public datasets." [Read the documentation on GitHub](https://github.com/alephdata/aleph)
 * [The Archive Network](https://thearchive.network/) - for creating personal and publishable archives, handles filetypes such as emails etc. Currently in closed beta.
 * [Evernote](https://evernote.com/) (organisation, sharing, OCR and tagging)
-* Programming languages open up other ways of dealing with text. For example, you can search documents using **command line** and **regex**, or convert PDFs in **Python** using the library `pdftoxml`.
+* Programming languages open up other ways of dealing with text. For example, you can search documents using **command line** and **regex**, convert PDFs in **Python** using the library `pdftoxml`, or use tools like sentiment analysis and Natural Language Processing (NLP). The free ebook [Text Mining With R](https://www.tidytextmining.com/) explains some techniques.
 
 Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](https://pinboard.in/u:paulbradshaw/t:text+tools)
 
@@ -40,6 +42,7 @@ Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](
 
 * [This tutorial explains how to count multiple tags in a text column in Excel and Atom](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/tagsexample.md)
 * [This tutorial explains how to use Datashare to create a document database and perform entity extraction](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/datasharehowto.md)
+* [This thread talks about how to search multiple documents using Atom](https://discuss.atom.io/t/find-string-in-a-list-of-files/13269)
 
 
 ## Sources of text to work with
