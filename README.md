@@ -48,3 +48,4 @@ Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](
 ## Sources of text to work with
 
 * The Chilcott Inquiry published [over 150 witness transcripts](https://webarchive.nationalarchives.gov.uk/20171123123302/http://www.iraqinquiry.org.uk/the-evidence/witness-transcripts/)
+* [Submissions to the Cairncross Review (98 documents)](https://www.documentcloud.org/public/search/projectid:%2048718-cairncrossreview%20%20) - download them from the [call for submissions](https://www.gov.uk/government/consultations/call-for-evidence-on-sustainable-high-quality-journalism-in-the-uk)
