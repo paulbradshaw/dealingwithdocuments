@@ -27,6 +27,7 @@ Some useful tools to know about include:
 * [The Archive Network](https://thearchive.network/) - for creating personal and publishable archives, handles filetypes such as emails etc. Currently in closed beta.
 * [Evernote](https://evernote.com/) (organisation, sharing, OCR and tagging)
 * Programming languages open up other ways of dealing with text. For example, you can search documents using **command line** and **regex**, convert PDFs in **Python** using the library `pdftoxml`, or use tools like sentiment analysis and Natural Language Processing (NLP). The free ebook [Text Mining With R](https://www.tidytextmining.com/) explains some techniques.
+* [CSV Match](https://github.com/maxharlow/csvmatch) is one tool for fuzzy matching.
 
 Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](https://pinboard.in/u:paulbradshaw/t:text+tools)
 
@@ -37,13 +38,15 @@ Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](
 * **Sentiment analysis** attempts to gauge whether a word or passage of text is positive or negative (used in [this story](https://www.washingtonpost.com/investigations/whistleblowers-say-usaids-ig-removed-critical-details-from-public-reports/2014/10/22/68fbc1a0-4031-11e4-b03f-de718edeb92f_story.html) along with `diff`)
 * **Entity extraction** attempts to identify and classify entities in a document, such as people, places, organisations, and times and dates.
 * **OCR** (Optical Character Recognition) attempts to convert images and scanned documents into text that can be searched etc. Google Images, for example, includes OCR so that you can search for images of specific licence plates, signs etc.
+* **Fuzzy matching** allows you to match different text where they are not exactly the same, e.g. names spelt or arranged slightly differently in different documents.
 
 ## Guides and tutorials
 
 * [This tutorial explains how to count multiple tags in a text column in Excel and Atom](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/tagsexample.md)
 * [This tutorial explains how to use Datashare to create a document database and perform entity extraction](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/datasharehowto.md)
 * [This thread talks about how to search multiple documents using Atom](https://discuss.atom.io/t/find-string-in-a-list-of-files/13269)
-
+* [Fuzzy matching in SQL](http://www.padjo.org/tutorials/databases/sql-fuzzy/)
+* [Find connections with fuzzy matching](https://github.com/maxharlow/tutorials/tree/master/find-connections-with-fuzzy-matching)
 
 ## Sources of text to work with
 
