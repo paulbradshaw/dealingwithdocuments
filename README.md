@@ -11,6 +11,7 @@ This repository contains resources related to dealing with documents as a journa
 * Identifying entities in documents (people, places, organisations, dates and times)
 * Organising documents
 * Publishing documents
+* Matching names referred to in different ways in different documents
 
 ## Tools for dealing with documents
 
