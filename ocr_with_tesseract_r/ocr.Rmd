@@ -1,0 +1,37 @@
+---
+title: "OCR with Tesseract"
+author: "Paul Bradshaw"
+date: "20/02/2020"
+output: html_document
+---
+
+# Trying out Tesseract for OCR on PDFs
+
+Install Tesseract. [Vignette here](https://cran.r-project.org/web/packages/tesseract/vignettes/intro.html).
+
+```{r}
+install.packages("tesseract")
+library(tesseract)
+```
+
+## Converting PDF to image
+
+[From the vignette](https://cran.r-project.org/web/packages/tesseract/vignettes/intro.html#read_from_pdf_files):
+
+> "If your images are stored in PDF files they first need to be converted to a proper image format. We can do this in R using the pdf_convert function from the pdftools package. Use a high DPI to keep quality of the image."
+
+We use the [annual accounts from Victoria Beckham Ltd](https://beta.companieshouse.gov.uk/company/06517802/filing-history).
+
+```{r}
+pngfile <- pdftools::pdf_convert('victoriabeckhamltd2019.pdf', dpi = 600)
+```
+
+## Reading from the image of the PDF
+
+Then see what text the OCR comes up with.
+
+```{r}
+text <- tesseract::ocr(pngfile)
+fulltext <- cat(text)
+```
+
