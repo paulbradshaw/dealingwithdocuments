@@ -39,4 +39,18 @@ The rest isn't useful to us.
 
 Given there are 27,000 of these files it would be useful to know what companies and dates they refer to - and possibly filter accordingly.
 
-Some simple pieces of command line can do this for us.
+Some simple pieces of command line can do this for us ([more on using command line here](https://github.com/paulbradshaw/commandline)).
+
+Open up Terminal (on a Mac) or PowerShell (on a PC) and use `cd` to navigate to the folder where you downloaded the files. 
+
+You can generate a list of files in that folder using `ls` (or `dir` on PC).
+
+To store that list instead, just add `> filename.csv` after the `ls` command like so:
+
+`ls > files.csv`
+
+This will create a new file with that name and extension (`files.csv`) containing the list of files. I've used CSV so we can easily open it in Excel or Google Sheets ([more on the Windows command here](https://www.windowscentral.com/how-save-command-output-file-using-command-prompt-or-powershell)).
+
+## Filtering those files using command line
+
+We can also use command line to select certain files based on their name.
