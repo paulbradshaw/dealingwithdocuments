@@ -34,3 +34,9 @@ The 8 characters before that are the company number: in the example above this i
 And the file extension tells us whether this is `iXBRL` or `XBRL` format: `.html` indicates the former; `.xml` the latter. This helps us know how to interpret the files later. For example, there are [R packages for working with XBRL](https://cran.r-project.org/web/packages/XBRL/index.html).
 
 The rest isn't useful to us.
+
+## Creating a list of files using command line
+
+Given there are 27,000 of these files it would be useful to know what companies and dates they refer to - and possibly filter accordingly.
+
+Some simple pieces of command line can do this for us.
