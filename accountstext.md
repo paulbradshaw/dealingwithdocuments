@@ -105,3 +105,13 @@ In other words this will measure the length of A2 (the company number) and subtr
 ## Filtering those files using command line
 
 We can also use command line to select certain files based on their name.
+
+## Moving files using command line 
+
+The `mv` command will move specified files to a specified place.
+
+If we've identified that the file `Prod223_2688_00488096_20190630.html`, for example, is of interest we can move it from the directory of 27,000 files to the parent directory by typing the following (making sure we have used command line to move into the folder containing the file):
+
+`mv Prod223_2688_00488096_20190630.html ..`
+
+The two dots `..` means 'parent folder'.
