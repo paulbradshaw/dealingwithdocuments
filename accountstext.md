@@ -51,6 +51,45 @@ To store that list instead, just add `> filename.csv` after the `ls` command lik
 
 This will create a new file with that name and extension (`files.csv`) containing the list of files. I've used CSV so we can easily open it in Excel or Google Sheets ([more on the Windows command here](https://www.windowscentral.com/how-save-command-output-file-using-command-prompt-or-powershell)).
 
+### Filtering the list in a spreadsheet
+
+You can use that spreadsheet to compile information on the files. To begin with it has just one column, with each filename.
+
+It doesn't have a header, so firstly insert a new row at the top of the spreadsheet and in the new empty cell A1 type **filename**.
+
+Give column B the heading **date** and type the following formula in cell B2 underneath:
+
+`=RIGHT(SUBSTITUTE(SUBSTITUTE(A2,".html",""),".xml",""),8)`
+
+This formula nests various parts of text cleaning: first it gets rid of the `.html` extension using `SUBSTITUTE(A2,".html","")`, then this is used for another `SUBSTITUTE` formula that gets rid of the `.xml` extension (files can have either). Once these have both been removed, it extracts the final 8 characters of the resulting string using `=RIGHT()` at the front of the formula.
+
+Now we have that full date we can extract parts of it.
+
+In cell C1 type **year** and type this formula:
+
+`=LEFT(B2,4)`
+
+This uses the results of the last formula and extracts the first four characters, which contain the year.
+
+In cell D1 type **month** and type this formula:
+
+`=MID(B2,5,2)`
+
+This uses the results of the same formula again but this time extracts the two characters starting at the fifth *position*: those contain the month.
+
+We might also want to distinguish between what type of file it is. To do this, type **filetype** in cell E1 and type this formula:
+
+`=RIGHT(A2,4)`
+
+This look at the full filename and grabs the last four characters: that will either be `html` or `.xml` (we could nest this inside a `SUBSTITUTE` function to remove the period but it doesn't matter).
+
+To extract the company number we can also use a `MID` function. In cell F1 type **companynumber** and type this formula:
+
+`=MID(A2,14,8)`
+
+Because the company number always starts at position 14 and runs for 8 characters, that's all we need to put here.
+
+
 ## Filtering those files using command line
 
 We can also use command line to select certain files based on their name.
