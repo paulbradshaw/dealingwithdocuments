@@ -97,7 +97,7 @@ Because the company number always starts at position 14 and runs for 8 character
 
 If we have another list of company numbers, we can use `VLOOKUP` to see where there is a match for one number in the other list (non-matches will return `#N/A`). Make sure that you clean the other company numbers so they are 8 characters long: if you are cleaning a company number in cell A2 the formula would be:
 
-`=REPT("0",8-LEN(A2))+A2`
+`=REPT("0",8-LEN(A2))&A2`
 
 In other words this will measure the length of A2 (the company number) and subtract that from the number 8. If it's less than 8 characters then the number of characters missing will be used to generate that number of zeroes, and those zeroes will be put at the front of the unclean company number to create a 'clean' one.
 
