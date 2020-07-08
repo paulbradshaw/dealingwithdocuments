@@ -115,3 +115,9 @@ If we've identified that the file `Prod223_2688_00488096_20190630.html`, for exa
 `mv Prod223_2688_00488096_20190630.html ..`
 
 The two dots `..` means 'parent folder'.
+
+If we want to move it instead to a folder within the parent folder, e.g. one called 'matchingaccounts', we can change it to this:
+
+`mv Prod223_2688_00488096_20190630.html ../matchingaccounts`
+
+(Obviously the file needs to still be in the place where we are writing our command line)
