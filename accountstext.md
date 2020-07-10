@@ -102,6 +102,67 @@ If we have another list of company numbers, we can use `VLOOKUP` to see where th
 In other words this will measure the length of A2 (the company number) and subtract that from the number 8. If it's less than 8 characters then the number of characters missing will be used to generate that number of zeroes, and those zeroes will be put at the front of the unclean company number to create a 'clean' one.
 
 
+## Filtering with R
+
+The following function uses a number of functions in R to look inside the Zip files, extract the company numbers, match those against a list, and then extract *only* the files that match, saving locally.
+
+```
+#Create a function - it takes 2 arguments:
+#zipurl should be the URL of a zip file
+#compnums should be a vector of company numbers
+findmatchedaccounts <- function(zipurl, compnums)
+  {
+  #Create a temporary file to store zip
+  temp <- tempfile()
+  #Download zip file
+  download.file(zipurl,temp)
+  #Store a list of the files
+  zflist <- unzip(temp, list = T)
+  #Add URL - we'll need this to download again if it has matching files
+  zflist$url <- zipurl
+  #We want to retain the full filename so we store that separately
+  zflist$filename <- zflist$Name 
+  #Then we separate on the underscore
+  zflist <- tidyr::separate(zflist, Name, into = c("batch1","batch2","compnum","date"), sep ="_")
+  #We separate again on the period, using square brackets to indicate we want to match it literally
+  zflist <- tidyr::separate(zflist, date, into = c("date","filetype"), sep ="[.]")
+  #Extract those that match
+  filematches <- zflist$filename[zflist$compnum %in% compnums]
+  #If there's at least one:
+  if (length(filematches)>0){
+    #Unzip just that one - this will throw an error if there's more than one match?
+    matchedfile <- readLines(unz(temp, filematches))
+    #Write it as a document, using the same filename
+    write(matchedfile, filematches)
+  }
+  #Remove file
+  unlink(temp)
+  #Return the list of any matches
+  return(filematches)
+}
+```
+
+Once that's defined, you can loop through a list of URLs for the zip files like so:
+
+
+```
+#Create empty list
+matchedfileslist <- c()
+#Loop through list of file names created earlier
+for (i in files){
+  #form the full url by adding the file name to the CH base URL
+  fullurl <- paste(baseurl,i,sep = "")
+  print(fullurl)
+  #run the function on that URL, with the company numbers
+  matchedfiles <- findmatchedaccounts(fullurl, footballclubs$fullcompanynum)
+  #We want to keep track of the results
+  print(matchedfiles)
+  #Add to what was the empty list
+  matchedfileslist <- c(matchedfileslist, matchedfiles)
+}
+```
+
+
 ## Filtering those files using command line
 
 We can also use command line to select certain files based on their name.
