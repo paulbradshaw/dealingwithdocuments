@@ -165,7 +165,7 @@ for (i in files){
 
 ## Filtering those files using command line
 
-We can also use command line to select certain files based on their name.
+We can also use command line to select certain files based on their name: [this post](https://superuser.com/questions/216617/view-list-of-files-in-zip-archive-on-linux) outlines a way to do something similar to the R code above: look inside a zip archive and filter accordingly.
 
 ## Moving files using command line 
 
@@ -181,4 +181,6 @@ If we want to move it instead to a folder within the parent folder, e.g. one cal
 
 `mv Prod223_2688_00488096_20190630.html ../matchingaccounts`
 
-(Obviously the file needs to still be in the place where we are writing our command line)
+(Obviously the file needs to still be in the place where we are writing our command line).
+
+This is more intensive than the other options, because it involves downloading and unzipping all the files locally first - whereas the previous approaches look inside the zip file.
