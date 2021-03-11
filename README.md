@@ -41,6 +41,8 @@ Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](
 * **Entity extraction** attempts to identify and classify entities in a document, such as people, places, organisations, and times and dates.
 * **OCR** (Optical Character Recognition) attempts to convert images and scanned documents into text that can be searched etc. Google Images, for example, includes OCR so that you can search for images of specific licence plates, signs etc.
 * **Fuzzy matching** allows you to match different text where they are not exactly the same, e.g. names spelt or arranged slightly differently in different documents.
+* **Ngrams** [are](https://en.wikipedia.org/wiki/N-gram) "a contiguous sequence of n items from a given sample of text or speech". In other words, a group of words that occur together (e.g. "police investigated", "investigated a") rather than a single word. The 'n' means 'any number' but related terms like **bigrams** (two word pairs) and **trigrams** (three word strings) specify the number of words involved.
+* **Topic modeling** is a way of categorising or organising documents by shared features in the text. For example you might have a collection of medical reports but need to know what they're about. Topic modeling might identify one cluster which tends to use one vocabulary (operation, incision, surgeon) and another which uses a different cluster of words (consultation, appointment, advised). This can help you to identify the group of documents you need to focus on.
 
 ## Guides and tutorials
 
@@ -49,9 +51,11 @@ Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](
 * [This thread talks about how to search multiple documents using Atom](https://discuss.atom.io/t/find-string-in-a-list-of-files/13269)
 * [Fuzzy matching in SQL](http://www.padjo.org/tutorials/databases/sql-fuzzy/)
 * [Find connections with fuzzy matching](https://github.com/maxharlow/tutorials/tree/master/find-connections-with-fuzzy-matching)
+* [Text Mining With R](https://www.tidytextmining.com/) includes ngram extraction, topic modeling and sentiment analysis
 
 ## Sources of text to work with
 
 * The Chilcott Inquiry published [over 150 witness transcripts](https://webarchive.nationalarchives.gov.uk/20171123123302/http://www.iraqinquiry.org.uk/the-evidence/witness-transcripts/)
 * [Submissions to the Cairncross Review (98 documents)](https://www.documentcloud.org/public/search/projectid:%2048718-cairncrossreview%20%20) - download them from the [call for submissions](https://www.gov.uk/government/consultations/call-for-evidence-on-sustainable-high-quality-journalism-in-the-uk)
 * Companies House [publishes bulk data files of company accounts](http://download.companieshouse.gov.uk/en_accountsdata.html). These are in XBRL format (.html file extension) XBRL format (.xml file extension). The file names include the company number and filing date. Use command line to navigate to the folder and create a spreadsheet of the filenames using `ls > filenames.csv` then extract and filter by company number, filing date (`=RIGHT(SUBSTITUTE(SUBSTITUTE(A2,".html",""),".xml",""),8)`) and filetype. 
+* There's some scraped IOPC recommendations in [this folder](https://github.com/paulbradshaw/dealingwithdocuments/tree/master/iopcreports)
