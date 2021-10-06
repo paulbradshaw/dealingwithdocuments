@@ -30,6 +30,7 @@ Some useful tools to know about include:
 * [Evernote](https://evernote.com/) (organisation, sharing, OCR and tagging)
 * Programming languages open up other ways of dealing with text. For example, you can search documents using **command line** and **regex**, convert PDFs in **Python** using the library `pdftoxml`, or use tools like sentiment analysis and Natural Language Processing (NLP). The free ebook [Text Mining With R](https://www.tidytextmining.com/) explains some techniques.
 * [CSV Match](https://github.com/maxharlow/csvmatch) is one tool for fuzzy matching.
+* [Pandoc](https://pandoc.org/getting-started.html) is a command line tool for converting, combining, and doing other stuff with documents
 
 Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](https://pinboard.in/u:paulbradshaw/t:text+tools)
 
