@@ -49,6 +49,8 @@ Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](
 
 * [This tutorial explains how to count multiple tags in a text column in Excel and Atom](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/tagsexample.md)
 * [This tutorial explains how to use Datashare to create a document database and perform entity extraction](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/datasharehowto.md)
+* [This Python notebook shows how to use regex and ngrams with speeches](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/regexNgramsSpeeches.ipynb)
+* [This Python notebook shows how to use topic modelling on tweets](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/topicModelling_DrWhoTweets.ipynb)
 * [This thread talks about how to search multiple documents using Atom](https://discuss.atom.io/t/find-string-in-a-list-of-files/13269)
 * [Fuzzy matching in SQL](http://www.padjo.org/tutorials/databases/sql-fuzzy/)
 * [Find connections with fuzzy matching](https://github.com/maxharlow/tutorials/tree/master/find-connections-with-fuzzy-matching)
