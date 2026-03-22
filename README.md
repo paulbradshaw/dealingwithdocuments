@@ -47,6 +47,9 @@ Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](
 
 ## Guides and tutorials
 
+* [What are regular expressions — and how to use them in Google Sheets to get data from text](https://onlinejournalismblog.com/2021/06/22/what-are-regular-expressions-and-how-to-use-them-in-google-sheets-to-get-data-from-text/)
+* [When you get data in sentences: how to use a spreadsheet to extract numbers from phrases](https://onlinejournalismblog.com/2019/07/29/when-you-get-data-in-sentences-how-to-use-a-spreadsheet-to-extract-numbers-from-phrases/)
+* [Google Sheets has a new AI function — how does it perform on classification tasks?](https://onlinejournalismblog.com/2025/04/10/google-sheets-has-a-new-ai-function-how-does-it-perform-on-classification-tasks/)
 * [This tutorial explains how to count multiple tags in a text column in Excel and Atom](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/tagsexample.md)
 * [This tutorial explains how to use Datashare to create a document database and perform entity extraction](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/datasharehowto.md)
 * [This Python notebook shows how to use regex and ngrams with speeches](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/regexNgramsSpeeches.ipynb)
