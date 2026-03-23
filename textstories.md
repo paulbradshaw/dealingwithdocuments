@@ -42,6 +42,10 @@ Strictly speaking, the headline *'Hope’ is out, ‘fight’ is in: Does tweeti
 
 The story [won an award](https://nationalpress.org/award-story/usa-today-data-and-visual-journalists-win-innovative-storytelling-award/) but is no longer available on the USA Today website, or on the Wayback Machine. The only version I could find is a [Yahoo copy](https://www.yahoo.com/news/hope-fight-does-tweeting-divide-100040058.html) which is missing visuals or that standfirst. Instead look at the award page and [watch the video](https://www.youtube.com/watch?v=Vexb0dx7zQ0) to see the article. 
 
+![](https://onlinejournalismblog.wordpress.com/wp-content/uploads/2026/03/vicewords.png)
+
+Similarly, Vice's [These Graphs Show How Much ‘Words of the Year’ Actually Get Used After They Join the Dictionary](https://www.vice.com/en/article/vape-chav-simples-word-of-the-year-dictionaries-505/) is an exploratory feature that visualises change for each word (the charts above each section are now missing, but the screenshot above gives you an idea) with the text providing complementary cultural commentary. 
+
 ## Ranking stories
 
 Again, *Sing My Name* is not explicitly a ranking angle to [this Pudding feature](https://pudding.cool/2019/05/names-in-songs/), and the standfirst is more exploratory: "If your name is Baby, then seemingly every song is about you. But what if your name isn’t Baby?"
@@ -50,13 +54,15 @@ But the sections in this feature focus a lot on ranking: what are the most popul
 
 ## Variation stories
 
+![](https://onlinejournalismblog.wordpress.com/wp-content/uploads/2026/03/pudding_bodyparts.png)
+
 Variation stories rely on an expectation of fairness, equality or parity, so that narrows the opportunities for this type of story. But The Economist's [*Twitter’s algorithm does not seem to silence conservatives*](https://www.economist.com/graphic-detail/2020/08/01/twitters-algorithm-does-not-seem-to-silence-conservatives) leads on analysis that suggests all text is not treated equally: "The platform’s recommendation engine appears to favour inflammatory tweets".
 
 Similarly, The Pudding's [*The physical traits that define men & women in literature*](https://pudding.cool/2020/07/gendered-descriptions/) does not lead on variation (it's exploratory), but its question is fundamentally about it: "Do authors really mention particular body parts more for men than for women? Are women’s bodies described using different adjectives than those attributed to men?"
 
 ## Relationship stories
 
-![](https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/2019/05/articles/main/20190518_gdc400.png)
+![](https://onlinejournalismblog.wordpress.com/wp-content/uploads/2026/03/scatterplot_beer.png)
 
 Scatterplots are good to show relationships between two variables, and [this Economist article on "beer snobs"](https://www.economist.com/graphic-detail/2019/05/18/why-beer-snobs-guzzle-lagers-they-claim-to-dislike) uses it to tell an explicit relationship story: "The beers online raters drink most are the ones they claim to like the least". The feature itself is more exploratory, leading on the question-statement *Why beer snobs guzzle lagers they claim to dislike* and going beyond revealing the relationship to exploring it further.
 
