@@ -30,7 +30,11 @@ Scale is perhaps the second most common angle used in stories treating text as d
 
 ## Stories about change
 
+![](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2009/1/21/1232539629996/Gallery-Wordle-Wordclouds-002.jpg?width=940&dpr=2&s=none&crop=none)
+
 *The war in Ukraine has made Russian social-media users glum* is just one example of using data journalism techniques to reveal a change in language: "Posts on Twitter are far sadder today than at the start of the covid-19 pandemic," The Economist [reported in its 2022 article](https://www.economist.com/graphic-detail/2022/03/12/the-war-in-ukraine-has-made-russian-social-media-users-glum). 
+
+Word clouds are sometimes used to tell stories of change by comparing language used in speeches at different times. The Guardian's *[Inauguration speeches in wordclouds](https://www.theguardian.com/world/gallery/2009/jan/21/obama-inauguration-word-clouds-gallery)* shows, for example, shows how Barack Obama's second inauguration speech focuses much more on terms like 'nation'.
 
 [This Washington Post story](https://www.washingtonpost.com/investigations/whistleblowers-say-usaids-ig-removed-critical-details-from-public-reports/2014/10/22/68fbc1a0-4031-11e4-b03f-de718edeb92f_story.html) about details being removed from USAID reports relies on using text analysis (specifically **diff**, or difference) to identify changes between drafts of audits that the journalists obtained (FOI is good for this). A secondary angle is the *scale* of the changes: "The analysis found that more than 400 negative references were removed from the audits between the draft and final versions".
 
