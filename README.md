@@ -19,6 +19,9 @@ Some useful tools to know about include:
 
 * [Tabula](https://tabula.technology/) (for extracting tables from documents)
 * [OutWit Hub](https://www.outwit.com/#hub) (for batch downloading documents - only available in Pro version)
+* [Word frequency counter](https://www.rapidtables.com/text/word-frequency.html)
+* [Diffchecker](https://www.diffchecker.com/): identify changes between docs (see [this story](https://www.washingtonpost.com/investigations/whistleblowers-say-usaids-ig-removed-critical-details-from-public-reports/2014/10/22/68fbc1a0-4031-11e4-b03f-de718edeb92f_story.html) for an example)
+* Regex playgrounds: [RegExr](http://regexr.com) or [Regex.ai](http://Regex.ai)
 * [Atom](https://atom.io/) (text editor - for using regex for searching across multiple documents)
 * [DocumentCloud](https://www.documentcloud.org/) (entity extraction and OCR)
 * [Overview](https://www.overviewdocs.com/) (identify links across documents, search and visualise)
