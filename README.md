@@ -50,6 +50,7 @@ Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](
 
 ## Guides and tutorials
 
+* [Slides about working with text and documents](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/Working%20with%20text%20and%20documents.pdf) from a class at Birmingham City University
 * [What are regular expressions — and how to use them in Google Sheets to get data from text](https://onlinejournalismblog.com/2021/06/22/what-are-regular-expressions-and-how-to-use-them-in-google-sheets-to-get-data-from-text/)
 * [When you get data in sentences: how to use a spreadsheet to extract numbers from phrases](https://onlinejournalismblog.com/2019/07/29/when-you-get-data-in-sentences-how-to-use-a-spreadsheet-to-extract-numbers-from-phrases/)
 * [Google Sheets has a new AI function — how does it perform on classification tasks?](https://onlinejournalismblog.com/2025/04/10/google-sheets-has-a-new-ai-function-how-does-it-perform-on-classification-tasks/)
