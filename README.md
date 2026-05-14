@@ -19,7 +19,7 @@ This repository contains resources related to dealing with documents as a journa
 
 The analysis is based a [dataset of 240 examples of text-based data journalism](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/textdatasets/djstories_usingtext.csv)
 
-Projects where text has been a particular focus of analysis include Paris Match's [Le poids de mots (The weight of words)](Le poids de mots (The weight of words)) ([read more about the project here](https://www.fipp.com/news/unpacking-paris-match-power-words-data-journalism/)) and The Guardian's series [The New Populism](https://www.theguardian.com/world/series/the-new-populism).
+Projects where text has been a particular focus of analysis include Paris Match's [Le poids de mots (The weight of words)](https://www.parismatch.com/dossiers/le-poids-des-mots) ([read more about the project here](https://www.fipp.com/news/unpacking-paris-match-power-words-data-journalism/)) and The Guardian's series [The New Populism](https://www.theguardian.com/world/series/the-new-populism).
 
 ## Tools for dealing with documents
 
