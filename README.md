@@ -15,7 +15,11 @@ This repository contains resources related to dealing with documents as a journa
 
 ## Examples of data journalism using text
 
-I've compiled a [dataset of text-based data journalism here](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/textdatasets/djstories_usingtext.csv)
+*[Words as data: how data journalists tell stories about documents and text](https://onlinejournalismblog.com/2026/05/14/how-to-tell-stories-about-documents-and-text-using-data-journalism/)* explores how journalists have used particular angles when dealing with text as data. 
+
+The analysis is based a [dataset of 240 examples of text-based data journalism](https://github.com/paulbradshaw/dealingwithdocuments/blob/master/textdatasets/djstories_usingtext.csv)
+
+Projects where text has been a particular focus of analysis include Paris Match's [Le poids de mots (The weight of words)](Le poids de mots (The weight of words)) ([read more about the project here](https://www.fipp.com/news/unpacking-paris-match-power-words-data-journalism/)) and The Guardian's series [The New Populism](https://www.theguardian.com/world/series/the-new-populism).
 
 ## Tools for dealing with documents
 
