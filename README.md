@@ -43,6 +43,7 @@ Some useful tools to know about include:
 * [CSV Match](https://github.com/maxharlow/csvmatch) is one tool for fuzzy matching.
 * [Pandoc](https://pandoc.org/getting-started.html) is a command line tool for converting, combining, and doing other stuff with documents
 * Everlaw is a document analysis tool that [offers free access to journalists](https://www.everlaw.com/everlaw-for-good/)
+* Henk van Ess created [an open-source tool](https://link.mail.beehiiv.com/v1/c/bVA%2BEGN8q%2BICA17D9aP%2B83hlnkt7wQarKXT0u%2BHxLkYytWfEfEJDn5kuq9lr%0At7EkHmRjLordZwlAWXaZA0fnLbiSUAX7MReLSbvDlCNnnVGoxP4e2bOYIR0r%0AJslLgwi6x0MlkMhmLAWfW6GdGvhh3tg2WlccMQePqo7RusHXsjJhw0TBN7hY%0Amew%2BQinb%2FOzoug%2F4J%2ByebI%2F3UBslLoSYhw%3D%3D%0A/be8a52da49af335b) that you can use to split up massive files in order to be able to upload them into an LLM for analysis. 
 
 Other tools are bookmarked at [https://pinboard.in/u:paulbradshaw/t:text+tools](https://pinboard.in/u:paulbradshaw/t:text+tools)
 
